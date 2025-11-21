@@ -16,13 +16,13 @@ def preprocess(text):
 ## -----------------------------
 ## Load precomputed data
 ## -----------------------------
-with open("vectorizer.pkl", "rb") as f:
+with open("../vectorizer.pkl", "rb") as f:
     vectorizer = pickle.load(f)
 
-with open("q_vectors.pkl", "rb") as f:
+with open("../q_vectors.pkl", "rb") as f:
     q_vectors = pickle.load(f)
 
-with open("answers.pkl", "rb") as f:
+with open("../  answers.pkl", "rb") as f:
     answers = pickle.load(f)
 
 ## -----------------------------
